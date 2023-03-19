@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM openjdk:11
 
 ENV ANDROID_HOME /opt/android
 ENV PATH ${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin:${ANDROID_HOME}/platform-tools
